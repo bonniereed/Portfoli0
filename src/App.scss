@@ -1,0 +1,50 @@
+$primary-color: #E98980;
+
+@import 'animate.css';
+@import '~loaders.css/src/animations/ball-zig-zag.scss';
+
+@font-face {
+  font-family: 'Fresca';
+  src: url('./assets/fonts/Fresca-Regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Dancing Script';
+  src:
+    url('./assets/fonts/DancingScript-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fresca';
+  src: 
+    url('./assets/fonts/Fresca-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+input,
+textarea {
+  font-family: 'Fresca', sans-serif;
+}
+
+.loader-hidden {
+  display: none;
+}
+
+.loader-active {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  width: 25px;
+  height: 25px;
+  animation: fadeOut 1s 1s;
+  animation-fill-mode: forwards;
+}

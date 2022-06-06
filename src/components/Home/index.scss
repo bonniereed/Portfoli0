@@ -1,0 +1,64 @@
+.home-page {
+  .text-zone {
+    position: absolute;
+    right: 20%;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+    
+
+    h1 {
+      color: #EED6D3;
+      font-size: 15px;
+      line-height: 19px;
+      margin: 0;
+      font-family: 'Fresca';
+      font-weight: 400;
+      background-color:rgba(36, 12, 4, .2);
+      @media (max-width: 767px){
+        visibility: hidden;
+      }
+    }
+
+    img {
+      margin-left: 15px;
+      opacity: 0;
+      width: 15%;
+      height: auto;
+      animation: rotateIn 1s linear both;
+      animation-delay: 1.4s;
+    }
+  }
+
+  h2 {
+    color: #EED6D3;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 11px;
+    font-family: 'Fresca';
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  .flat-button {
+    color: #E8B4B8;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 4px;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #E8B4B8;
+    margin-top: 25px;
+    float: left;
+    animation:reverse;
+    white-space: nowrap;
+    border-radius: 0.5rem;
+
+    &:hover {
+      background: #E8B4B8;
+      color: rgb(0, 0, 0);
+    }
+  }
+}

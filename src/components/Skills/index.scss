@@ -1,0 +1,35 @@
+.tagcloud-wrap {
+  // background: gray;
+  float: center;
+  width: 15%;
+  height: 55%;
+  margin-top: 1%;
+  margin-left: 15%;
+  @media (max-width: 767px) {
+  float: center;
+  width: 15%;
+  height: 40%;
+  margin-top: -7%;
+  margin-left: 5%;
+  }
+  .tagcloud {
+    color: #F4B9B8;
+    font-family: 'Fresca';
+    font-size: 50px;
+    font-weight: 650;
+    margin: 18% auto;
+    margin-left: 65%;
+    @media (max-width: 767px) {
+      color: #F4B9B8;
+    font-family: 'Fresca';
+    font-size: 15px;
+    font-weight: 100;
+    margin: 1%;
+    margin-left: -40%;
+ 
+    }
+  }
+  .tagcloud--item:hover {
+    color: #B95C50;
+  }
+}

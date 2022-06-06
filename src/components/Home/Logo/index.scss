@@ -1,0 +1,30 @@
+.git-container {
+  margin: 10% auto;
+  padding: 15%;
+  float: left;
+  width: 50%;
+  height: 100%;
+  margin-top: -3%;
+  z-index: 0;
+  opacity: 1;
+  position: absolute;
+  animation: zoomInUp 2.5s ease-in 1s;
+  user-select: none;
+  border-radius: 50%;
+  @media (max-width: 767px){
+    margin: 10%;
+  padding: 15%;
+  width: 25%;
+  height: 50%;
+  margin: 25%;
+  z-index: 0;
+  opacity: 1;
+  position: absolute;
+  animation: zoomInUp 2.5s ease-in 1s;
+  user-select: none;
+  border-radius: 50%;
+
+  }
+}
+
+
